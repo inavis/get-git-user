@@ -120,7 +120,7 @@ function api(value){
         
                 content.innerHTML+=`
                 <div class="panel repos text-center">
-                <h3>PUBLIC REPOSITORIES<h3>
+                <div class="last-title">PUBLIC REPOSITORIES</div>
                 <br>
             
                 </div>
@@ -145,7 +145,7 @@ function api(value){
             .then((data)=>{
                 content.innerHTML+=`
                 <div class="panel follower-list">
-                <h3>FOLLOWERS</h3>
+                <div class="last-title">FOLLOWERS</div>
                 <br>
                 <br>
                 </div`

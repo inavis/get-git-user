@@ -90,7 +90,6 @@ body{
   color: rgb(223, 205, 205);
 }
 .panel{
-  margin: 10px 100PX;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 3px 3px 5px pink;
@@ -148,4 +147,56 @@ body{
   z-index: 10;
  
 }
+
+
+
+
+@media  ( min-width:200px)and (max-width: 350px){
+  .panel{
+    margin: 10px 20px;
+  }
+  .last-title{
+    font-size: small;
+  }
+
+}
+
+@media (min-width:351px) and (max-width: 400px){
+  .panel{
+    margin: 10px 40px;
+  }
+  .last-title{
+    font-size: small;
+  }
+  
+}
+  @media (min-width: 401px) and (max-width: 500px) {
+    .panel{
+      margin: 10px 60px;
+    }
+    .last-title{
+      font-size: medium;
+    }
+     
+  }
+  
+  @media (min-width:501px) and (max-width: 1000px) {
+    .panel{
+      margin: 10px 80px;
+    }
+    .last-title{
+      font-size: x-large;
+    }
+  
+  }
+
+  @media  (min-width: 1001px) {
+    .panel{
+      margin: 10px 100px;
+    }
+    .last-title{
+      font-size: xx-large;
+    }
+  
+  }
 
