@@ -154,8 +154,10 @@ function api(value){
                     
                     document.querySelector(".follower-list").innerHTML+=`
                     <div class="card">
+                    <a href=${x.html_url} target="blank">
                     <img src="${x.avatar_url}" class=""/>
-                    <div>${x.login}</div>
+                    <div><a href=${x.html_url} target="blank">${x.login}</a></div>
+                    </a>
                     </div>
                     `
                 }
