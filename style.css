@@ -167,6 +167,7 @@ body{
   }
   .head img{
     width:80%;
+    height: 100px;
   }
    
 
@@ -180,7 +181,8 @@ body{
     font-size: larger;
   }
   .head img{
-    width:75%;
+    width:85%;
+    height: 100px;
   }
    
 
@@ -193,7 +195,8 @@ body{
       font-size: x-large;
     }
     .head img{
-      width:70%;
+      width:83%;
+      height: 100px;
     }
      
   }
@@ -206,7 +209,8 @@ body{
       font-size: larger;
     }
     .head img{
-      width:65%;
+      width:80%;
+      height: 120px;
     }
   
   }
@@ -220,6 +224,7 @@ body{
     }   
     .head img{
       width:45%;
+      height: 120px;
     }
   
   }
